@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Contact | HBT</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+	* {
+            padding: 0px;
+            margin: 0px;
+            scroll-behavior: smooth;
+        }
+
+
+        body {
+            overflow-x: hidden;
+        }
+.top-header {
+	 background-color: rgb(110, 110, 110);
+            padding: 30px;
+            padding-bottom: 40px;
+            width: 100%;
+	
+}
+#branding {
+            line-height: 25px;
+            font-size: 25px;
+            float: left;
+            color: white;
+            width: 81px;
+            position: relative;
+            left: 330px;
+}
+#navigation
+{
+	        width: 400px;
+            float: right;
+            color: white;
+            font-size: 20px;
+	
+}	
+#navigation ul li {
+	list-style: none;
+	display:inline;
+	padding:10px;
+}
+ul li a {
+	color:white;
+	text-decoration: none;
+	
+}
+#active {
+			color: orange;
+            background-color: rgba(172, 154, 154, 0.288);
+            height: 100%;
+            padding-top: 40px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 18px; }
+
+form {
+            width: 900px;
+			height: 470px;
+            margin-top: 20px;
+            position: relative;
+            left: 20%;
+            align-content: center;
+		
+			padding-left:80px;
+        }
+
+.contact-header {
+            font-size: 35px;
+
+        }
+
+.contact-header::before 
+{
+            font-size: 35px;
+            content: "Contact";
+            color: orange; 
+}	
+input {
+            width: 800px;
+            height: 30px;
+        }
+
+
+        textarea {
+            width: 800px;
+            height: 80px;
+        }
+.formButton {
+            color: white;
+            background-color: black;
+            width: 80px;
+            border: 0;
+            outline: 0;
+            padding: 12px;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }	
+footer {
+            width: 100%;
+            height: 200px;
+            background-color: rgb(51,51,51);
+
+        }
+
+
+        .fcontainer {
+            display: flex;
+            width: 100%;
+            position: relative;
+            left: 10%;
+            height: 150px;
+
+        }
+
+        .location {
+
+            width: 30%;
+            text-align: center;
+            height: 140px;
+            position: relative;
+            top: 30px;
+
+        }
+
+        .Phone {
+
+            width: 30%;
+            text-align: center;
+            height: 140px;
+            position: relative;
+            top: 30px;
+			
+
+        }
+
+        .Email {
+
+            width: 25%;
+            text-align: center;
+            height: 140px;
+            position: relative;
+            top: 30px;
+
+
+        }
+
+        h3 {
+            color: white;
+        }
+
+        p.detail {
+            color: white;
+        }		
+  </style>
+</head>
+<body>
+	<header>
+		<div class="top-header">
+			<div id="branding">
+				<h1>HBT</h1>
+			</div>
+			<nav id="navigation">
+				<ul>
+					    <li><a href="index.html" target="_blank" >Home</a></li>
+                        <li><a href="about-page.html" target="_blank">About</a></li>
+                        <li><a href="contact-page.html" target="_blank" id="active">Contact</a></li>
+				</ul>
+			</nav>
+			
+		</div>
+	
+	</header>
+	
+	<section>
+		<form action="#home">
+			<div class="contact-form">
+				<h1 class="contact-header">Us</h1>
+				<br>
+				<p style="font-size: 20px;"><strong>Please fill out the form below to contact us</strong></p>
+				<br>
+				<label for="name">Name</label><br><br>
+				<input type="text" name="name" id="name" required><br>
+				<br>
+				<label for="Email">Email</label><br><br>
+				<input type="email" name="email" id="Email" required><br>
+				<br>
+				<label for="message">Message</label><br><br>
+				<textarea name="message" id="message" cols="30" rows="10" required></textarea>
+				<br><br>
+				<button   class="formButton">Submit</button>
+			</div>
+		</form>	
+	</section>
+	
+	<footer>
+    <div class="fcontainer">
+
+        <div class="location">
+            <i class="fa fa-map-marker" style="font-size:48px; color:white"></i>
+            <br><br>
+            <h3>Location</h3>
+            <br>
+            <p class="detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, dolor.</p>
+        </div>
+
+
+        <div class="Phone">
+            <i class="fa fa-phone" style="font-size:48px; color:white"></i>
+            <br><br>
+            <h3>Phone Number</h3>
+            <br>
+            <p class="detail">(0900)-78601</p>
+
+        </div>
+
+
+        <div class="Email">
+            <i class="fa fa-envelope" style="font-size:48px; color:white"></i>
+            <br><br>
+            <h3>Email Address</h3>
+            <br>
+            <p class="detail">lorem@gmail.com</p>
+
+        </div>
+
+
+    </div>
+
+</footer>

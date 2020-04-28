@@ -1,0 +1,192 @@
+* {
+            padding: 0px;
+            margin: 0px;
+            scroll-behavior: smooth;
+        }
+
+
+        body {
+            overflow-x: hidden;
+        }
+.top-header {
+			background-color: rgb(110, 110, 110);
+            padding: 30px;
+            padding-bottom: 40px;
+            width: 100%;
+	
+}
+#branding {
+            line-height: 25px;
+            font-size: 25px;
+            float: left;
+            color: white;
+            width: 81px;
+            position: relative;
+            left: 330px;
+}
+#navigation
+{
+	        width: 400px;
+            float: right;
+            color: white;
+            font-size: 20px;
+	
+}	
+#navigation ul li {
+	list-style: none;
+	display:inline;
+	padding:10px;
+}
+ul li a {
+	color:white;
+	text-decoration: none;
+	
+}
+#active {
+			color: orange;
+            background-color: rgba(172, 154, 154, 0.288);
+            height: 100%;
+            padding-top: 40px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 18px; }
+#showcase {
+	width: 100%;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            padding-top: 700px;
+            background: url(img/showcase.jpg);
+            background-position: center;
+            border-bottom: 2px solid white;
+            background-size: cover;
+}
+.container {
+	        text-align: center;
+            position: absolute;
+            top: 43%;
+            left: 20%;
+
+            color: white;
+}
+.heading-first-word:before {
+            color: orange;
+            content: "Enjoy ";
+}
+#About-button
+{
+	background-color:rgb(51,51,51);
+	color:white;
+	padding:10px;
+	border-radius:5px;
+	cursor:pointer;
+	border:0px;
+}	
+
+
+
+        .bannerText {
+            text-align: center;
+            position: absolute;
+            top: 43%;
+            left: 20%;
+
+            color: white;
+        }
+
+        .heading-first-word:before {
+            color: orange;
+            content: "Enjoy ";
+        }
+
+        #About-button {
+            background-color: rgb(54, 50, 50);
+            color: white;
+            padding: 15px;
+            border: 0px;
+            border-radius: 5px;
+            outline: 0px;
+            cursor: pointer;
+        }
+
+
+        .two-box-container {
+            display: flex;
+
+            /* height: 50px; 
+    width: 100%; */
+        }
+
+
+        .Box {
+            width: 100%;
+            height: 200px;
+        }
+
+
+        #Box2 {
+
+            background-color: black;
+            text-align: center;
+            width: 100%;
+            height: 300px;
+
+
+        }
+
+
+
+
+        .Box-content {
+            color: white;
+            position: relative;
+            top: 35%;
+
+        }
+
+        .heading-first-word2:before {
+            color: orange;
+            content: "The History ";
+        }
+.flex-threeBoxes {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 130px;
+            padding-top: 0px;
+            margin: 0px;
+        }
+
+
+        .location {
+            background-color: white;
+
+            width: 32%;
+            text-align: center;
+            align-content: center;
+            padding-top: 30px;
+
+        }
+
+
+        .free-meals {
+            background-color: rgb(247,192,138);
+
+            width: 32%;
+            text-align: center;
+            align-content: center;
+            padding-top: 30px;
+
+
+
+        }
+
+
+        .fitness-room {
+            background-color: white;
+
+            width: 35%;
+            text-align: center;
+            align-content: center;
+            padding-top: 30px;
+
+        }		
